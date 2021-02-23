@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "6301db53-7769-4ae4-8981-bdcbc0212009",
+		"name": "Exercice 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/capsules/C113",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"capsules",
+						"C113"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/45",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"45"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/missions/EE86F74",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"missions",
+						"EE86F74"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

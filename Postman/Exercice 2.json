@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "8ff88cfc-b8f1-4489-b6ab-fa8d86e9236d",
+		"name": "Exercice 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/launches/22",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"launches",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v3/rockets/falcon9",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v3",
+						"rockets",
+						"falcon9"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
