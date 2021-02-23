@@ -1,2 +1,4 @@
 # LDJ-JavaScript
- Répertoire contenant les codes relatifs au cours "Panorama frameworks JavaScript" de la formation LDJ.
+
+## Exercice
+Sur une page HTML, créer un bouton qui aura pour action à chaque clic de générer un texte et changer la couleur du fond de la page. Le texte généré devra changer toutes les 5s à partir d'une liste de 5 mots.
